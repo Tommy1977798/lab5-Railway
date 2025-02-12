@@ -1,0 +1,19 @@
+{
+    "name": "chy18/railway-station-app",
+    "autoload": {
+        "psr-4": {
+            "Chy18\\RailwayStationApp\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TOMMY",
+            "email": "q446367497@gmail.com"
+        }
+    ],
+    
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

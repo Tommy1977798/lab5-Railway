@@ -1,0 +1,109 @@
+/* 基础样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* 浅蓝色背景 */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* 头部样式 */
+h1, h2 {
+    text-align: center;
+    color: #004080; /* 深蓝色 */
+}
+
+/* 导航栏 */
+.navbar {
+    background-color: #004080; /* 深蓝色 */
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #0073e6; /* 浅蓝色 */
+    border-radius: 5px;
+}
+
+/* 按钮样式 */
+button, .btn {
+    background-color: #004080; /* 深蓝色 */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover, .btn:hover {
+    background-color: #0073e6; /* 浅蓝色 */
+}
+
+/* 表单样式 */
+form {
+    width: 300px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 表格样式 */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #004080; /* 深蓝色 */
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #004080; /* 深蓝色 */
+    color: white;
+}
+
+td {
+    background-color: #f0f8ff; /* 浅蓝色 */
+}
+
+/* 链接样式 */
+a {
+    color: #004080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 页脚 */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
